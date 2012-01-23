@@ -15,5 +15,14 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.playframework.playclipse.playNature</nature>
 	</natures>
-	
+	<linkedResources><link><name>cobertura-2.4</name><type>2</type><location>/home/himurafred/application_mobile/play/modules/cobertura-2.4/app</location></link>
+<link><name>conf/cobertura-2.4</name><type>2</type><location>/home/himurafred/application_mobile/play/modules/cobertura-2.4/conf</location></link>
+<link><name>cloudbees-0.2.2</name><type>2</type><location>/home/himurafred/application_mobile/play/modules/cloudbees-0.2.2/app</location></link>
+<link><name>conf/cloudbees-0.2.2</name><type>2</type><location>/home/himurafred/application_mobile/play/modules/cloudbees-0.2.2/conf</location></link>
+<link><name>db-1.1.1</name><type>2</type><location>/home/himurafred/application_mobile/play/modules/db-1.1.1/app</location></link>
+<link><name>conf/db-1.1.1</name><type>2</type><location>/home/himurafred/application_mobile/play/modules/db-1.1.1/conf</location></link>
+<link><name>securesocial-0.2.2</name><type>2</type><location>/home/himurafred/application_mobile/play/modules/securesocial-0.2.2/app</location></link>
+<link><name>conf/securesocial-0.2.2</name><type>2</type><location>/home/himurafred/application_mobile/play/modules/securesocial-0.2.2/conf</location></link>
+<link><name>public/securesocial-0.2.2</name><type>2</type><location>/home/himurafred/application_mobile/play/modules/securesocial-0.2.2/public</location></link>
+</linkedResources>
 </projectDescription>
