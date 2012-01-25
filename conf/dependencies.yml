@@ -7,4 +7,12 @@ require:
     - play -> cloudbees 0.2.2
     - play -> db 1.1.1
     - play -> cobertura 2.4
+    - customModules -> Authenticate
 
+repositories:
+
+    - playCustomModules:
+        type: local
+        artifact: "/home/himurafred/application_mobile/play/Authenticate"
+        contains:
+            - customModules -> *
