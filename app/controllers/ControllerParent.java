@@ -10,7 +10,8 @@ import play.mvc.Before;
 import play.mvc.Controller;
 import play.mvc.Http;
 
-public class ControllerParent extends Controller{
+
+public class ControllerParent extends SecurityPlugin{
 	
 	//Ce champs sert seulement à avoir une meilleure compréhension lors de l'accès aux properties.
 	protected static Properties properties = Play.configuration;
@@ -25,21 +26,4 @@ public class ControllerParent extends Controller{
 			Http.Response.current().headers.put("Access-Control-Allow-Origin",hd);		
 		//}
 	}	
-	
-	/**
-	 * Permet de récupérer le user courant .
-	 * @return
-	 */
-	public static User getUser(){
-		return SecurityPlugin.getUser();
-	}
-	
-	public static void logout(){
-		SecurityPlugin.logout();
-		renderJSON(true);
-	}
-	
-	public static void login(@Required String username, @Required String password){
-    	renderJSON(SecurityPlugin.authenticate(username, password));
-    }
 }
